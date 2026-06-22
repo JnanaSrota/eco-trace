@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-app=FastAPI(title="EcoTrace" API)
+app=FastAPI(title="EcoTrace API")
 
 app.add_middleware(
     CORSMiddleware,
